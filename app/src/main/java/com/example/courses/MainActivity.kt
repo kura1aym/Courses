@@ -119,8 +119,6 @@ fun TopicPreview() {
         val topic = Topic(R.string.photography, 321, R.drawable.photography)
         Column(
             modifier = Modifier.fillMaxSize(),
-//            verticalArrangement = Arrangement.Center,
-//            horizontalAlignment = Alignment.CenterHorizontally
         ) {
             TopicCard(topic = topic)
         }
